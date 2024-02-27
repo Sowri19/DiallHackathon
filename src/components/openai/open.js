@@ -4,7 +4,7 @@ export async function sendMsg(message) {
   const API_URL = "https://api.openai.com/v1/chat/completions";
   const API_KEY = "";
   try {
-    const prompt = `Summarize the following meeting transcript into key takeaways:\n\n${message}`;
+    const prompt = `Summarize the following meeting transcript into key takeaways and also generate todo list in points:\n\n${message}`;
 
     const response = await axios.post(
       API_URL,
