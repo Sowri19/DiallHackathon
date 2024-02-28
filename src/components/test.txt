@@ -1,0 +1,13 @@
+Therapist: Good morning, how are you feeling today?
+Patient: Hi, I'm feeling a bit overwhelmed lately.
+Therapist: I see. What has been on your mind lately that's been causing you to feel overwhelmed?
+Patient: Well, work has been really stressful lately. I feel like I have too much on my plate.
+Therapist: It sounds like work is taking a toll on you. Have you been able to take any breaks or practice self-care?
+Patient: Not really. I feel guilty whenever I take time for myself. I always think about the work that needs to be done.
+Therapist: It's important to prioritize your well-being. Taking breaks can actually improve productivity. Let's explore some strategies to help you manage your workload and find time for self-care.
+Patient: That sounds good. I just don't know where to start.
+Therapist: We can start by breaking down your tasks into smaller, manageable steps. And we can also work on changing your mindset about taking breaks. It's okay to prioritize your mental health.
+Patient: Thank you, I really needed to hear that. I'll try to implement those strategies.
+Therapist: Remember, I'm here to support you every step of the way. Let's schedule our next session to check in on your progress.
+Patient: Sounds like a plan. Thank you for your help.
+Therapist: You're welcome. Take care, and remember to be kind to yourself.
