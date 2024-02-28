@@ -11,13 +11,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li style={liStyle}>
-          <Link to="/guided-meditation" style={linkStyle}>
-            Guided Meditation
-          </Link>
-        </li>
-        <li style={liStyle}>
-          <Link to="/therapy-planner" style={linkStyle}>
-            Therapy Planner
+          <Link to="/profiles" style={linkStyle}>
+            Profiles
           </Link>
         </li>
         {/* Add more navigation options as needed */}

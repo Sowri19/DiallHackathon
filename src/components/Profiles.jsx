@@ -1,6 +1,6 @@
 import React from "react";
 import PatientProfiles from "./PatientProfiles";
-
+import Navbar from "./Navbar";
 const profiles = [
   {
     id: 1,
@@ -37,12 +37,13 @@ const profiles = [
   },
 ];
 
-const GuidedMeditation = () => {
+const Profiles = () => {
   return (
     <div>
+      <Navbar />
       <PatientProfiles profiles={profiles} />
     </div>
   );
 };
 
-export default GuidedMeditation;
+export default Profiles;
