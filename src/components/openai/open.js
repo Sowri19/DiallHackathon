@@ -2,7 +2,7 @@ import axios from "axios";
 
 export async function sendMsg(message) {
   const API_URL = "https://api.openai.com/v1/chat/completions";
-  const API_KEY = "";
+  const API_KEY = "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";
   try {
     const prompt = `Summarize the following meeting transcript into key takeaways and also generate todo list in points:\n\n${message}`;
 
