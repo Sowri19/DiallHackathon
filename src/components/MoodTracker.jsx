@@ -30,7 +30,7 @@ const MoodTracker = () => {
     <div>
       {/* Header */}
       <header style={headerStyle}>
-        <h1>MindEase</h1>
+        <h1>Diall</h1>
       </header>
       <Navbar />
       <Home />

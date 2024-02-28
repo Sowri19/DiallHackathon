@@ -1,12 +1,39 @@
+// TherapistSupport.js
 import React from 'react';
+import { Widget, addResponseMessage } from 'react-chat-widget';
+import 'react-chat-widget/lib/styles.css';
+
 
 const TherapistSupport = ({ planTitle, planDescription, buttonText, onClick }) => {
+  
+  const handleNewUserMessage = (newMessage) => {
+    // Here you can send the message to your backend and handle it with your chatbot service (e.g., Dialogflow)
+    // For now, let's just echo back the user's message
+    addResponseMessage(newMessage);
+  };
+
+  const handleButtonClick = () => {
+    // Open the chat widget when the button is clicked
+    const chatWidget = document.getElementById('chat-widget');
+    chatWidget.style.display = 'block';
+  };
+
   return (
     <div style={styles.card}>
+      {/* Display the ChatbotLogo component */}
+
       <div style={styles.content}>
-        <h2 style={styles.title}>Hello</h2>
-        <p style={styles.description}>efbfhkhfhfkhfkhekfhkwfhfhkfhkehfkehfkherkehrkhekhkhkwhekhwk</p>
-        <button style={styles.button} onClick={onClick}>{buttonText}</button>
+        <h2 style={styles.title}>{planTitle}</h2>
+        <p style={styles.description}>{planDescription}</p>
+        <button style={styles.button} onClick={handleButtonClick}>Chat with next available therapist</button>
+        {/* Chat widget container */}
+        <div id="chat-widget" style={{ display: 'none' }}>
+          <Widget
+            handleNewUserMessage={handleNewUserMessage}
+            title="Therapist Support"
+            subtitle="Chat with our therapist"
+          />
+        </div>
       </div>
     </div>
   );

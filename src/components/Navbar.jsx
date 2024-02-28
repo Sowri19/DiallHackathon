@@ -9,7 +9,7 @@ const Navbar = () => {
           <Link to="/" style={linkStyle}>Home</Link>
         </li>
         <li style={liStyle}>
-          <Link to="/guided-meditation" style={linkStyle}>Intelligent patient profiles</Link>
+          <Link to="/guided-meditation" style={linkStyle}>Patient Plan Builder</Link>
         </li>
         <li style={liStyle}>
           <Link to="/therapist-support" style={linkStyle}>Therapist Support</Link>
