@@ -14,8 +14,8 @@ Mental health issues are increasingly prevalent, yet many individuals lack acces
 - **Intelligent Patient Profiles**: Automatically build comprehensive profiles by analyzing patient data, suggesting relevant resources and personalized treatment plans.
 - **Therapy Plan Builder**: Suggest personalized treatment plans based on specific patient data and conditions.
 - **Medication Adherence Tracking**: Monitor and ensure patients follow their medication schedules as part of their treatment plan.
-- **Progress Dashboards**: Visual dashboards to display patient progress and outcomes over time, offering a quick glance at their journey.
-- **Profile Journey Section**: A dedicated space for patients to share their treatment journey, obstacles faced, and strategies to overcome them, providing valuable insights to other users.
+- **Progress Indicators**: Visual indicators to display patient progress and outcomes over time, offering a quick glance at their journey.
+- **Profile Journey Section**: User can create a journey section for each profile where user will be able to add how he completed his treatment and problem faced and how he overcame them this will be viewed by new patients so they can get help with tackling the obstacles in their journey.
 
 ## Impact of the Solution
 
