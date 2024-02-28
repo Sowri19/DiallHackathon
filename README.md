@@ -1,84 +1,56 @@
-# Getting Started with Create React App
+# Mindfulness
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Mindfulness is a comprehensive mental wellness platform designed to support both patients and therapists in the journey towards mental health improvement. Utilizing intelligent data analysis, the platform offers personalized treatment plans, therapy sessions, and medication adherence tracking to ensure optimal care and support for individuals dealing with mental health challenges.
 
-In the project directory, you can run:
+## Problem Being Addressed
 
-### `npm start`
+Mental health issues are increasingly prevalent, yet many individuals lack access to personalized, effective treatment options. Mindfulness addresses this gap by providing a tailored wellness journey, leveraging technology to offer insights, support, and monitoring for both patients and therapists.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Personalized Takeaways**: Generate actionable insights and items after each session, enhancing patient engagement and therapy effectiveness.
+- **Intelligent Patient Profiles**: Automatically build comprehensive profiles by analyzing patient data, suggesting relevant resources and personalized treatment plans.
+- **Therapy Plan Builder**: Suggest personalized treatment plans based on specific patient data and conditions.
+- **Medication Adherence Tracking**: Monitor and ensure patients follow their medication schedules as part of their treatment plan.
+- **Progress Dashboards**: Visual dashboards to display patient progress and outcomes over time, offering a quick glance at their journey.
+- **Profile Journey Section**: A dedicated space for patients to share their treatment journey, obstacles faced, and strategies to overcome them, providing valuable insights to other users.
 
-### `npm test`
+## Impact of the Solution
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+By integrating these features, Mindfulness aims to significantly improve mental health care quality and accessibility, making personal and effective treatment plans a reality for those in need.
 
-### `npm run build`
+## Technology Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React for the frontend
+- Axios for handling HTTP requests
+- React Router for navigation
+- OpenAI for intelligent data analysis and insights
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running the Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+First, clone the repository:
 
-### `npm run eject`
+```bash
+git clone <repository-url>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+cd diallhackathon
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Learning and Innovation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project not only leverages modern web technologies but also integrates OpenAI's capabilities to analyze and understand patient data, setting a new standard in personalized mental health care.
 
-## Learn More
+## Business Value
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Mindfulness aims to bridge the gap in mental health care by providing an innovative, data-driven platform that enhances therapy outcomes, patient engagement, and overall wellness.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Team Members
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-Project Objectives:
-
-Personalized takeaways- Create targeted action items and insights for both patients and therapists after each session
-
-Intelligent patient profiles - Analyze data to automatically build comprehensive profiles, suggesting relevant resources and aiding personalized treatment plans
-
-Therapy plan builder - Suggest personalized treatment plans based on patient data and condition
-
-Medication adherence tracking - Monitor medication intake to ensure treatment plans are followed
-
-Progress dashboards - Visualize patient progress and outcomes over time at a glance
-
-Profile journey section - We will create a journey section for each profile where user will be able to add how he completed his treatment and problem faced and how he overcame them this will be viewed by new patients so they can get help with tackling the obstacles in their journey
+- Satya Sowri Sampath Korturti
+- Rushikesh Dalvi
+- Akhil Sai Koppanatham
