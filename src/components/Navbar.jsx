@@ -23,6 +23,9 @@ const Navbar = () => {
         <li style={liStyle}>
           <Link to="/about-us" style={linkStyle}>About Us</Link>
         </li>
+        <li style={liStyle}>
+          <Link to="/therapy-planner" style={linkStyle}>Therapy Planner</Link>
+        </li>
         {/* Add more navigation options as needed */}
       </ul>
     </nav>
