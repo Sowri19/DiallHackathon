@@ -5,7 +5,7 @@ const MoodTracker = () => {
   return (
     <div>
       <header style={headerStyle}>
-        <h1>Diall</h1>
+        <h1>Mindfulness</h1>
       </header>
       <Home />
       <footer style={footerStyle}>

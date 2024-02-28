@@ -31,7 +31,7 @@ const Home = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.header}>Welcome to Diall</h1>
+      <h1 style={styles.header}>Welcome to Mindfulness</h1>
       <div style={styles.content}>
         {!showLoginForm && (
           <div style={styles.buttonContainer}>
