@@ -2,7 +2,7 @@ import axios from "axios";
 
 export async function sendMsg(message) {
   const API_URL = "https://api.openai.com/v1/chat/completions";
-  const API_KEY = "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";
+  const API_KEY = "";
 
   try {
     const prompt = `Summarize the following meeting transcript into key takeaways and also generate todo list in points:\n\n${message}`;
@@ -40,7 +40,7 @@ export async function sendMsg(message) {
 }
 export async function generateReport(message) {
   const API_URL = "https://api.openai.com/v1/chat/completions";
-  const API_KEY = "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";
+  const API_KEY = "";
 
   try {
     const prompt = `Get the Brief report of the transcript, and mention key takeaways \n\n${message}`;
