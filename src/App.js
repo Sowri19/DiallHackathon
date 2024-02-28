@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MoodTracker from "./components/MoodTracker";
 import GuidedMeditation from "./components/GuidedMeditation";
 import TherapistSupport from "./components/TherapistSupport";
+import TherapyPlanner from "./components/TherapyPlanner";
 import Ai from "./components/openai/Ai";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/summary" element={<Ai />} />
         <Route path="/guided-meditation" element={<GuidedMeditation />} />
         <Route path="/therapist-support" element={<TherapistSupport />} />
+        <Route path="/therapy-planner" element={<TherapyPlanner />} />
       </Routes>
     </Router>
   );
